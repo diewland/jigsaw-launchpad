@@ -25,7 +25,7 @@ tpl = {
   "compiler": ENGINE,
 }
 
-for id in range(51, 100): # 51-100
+for id in range(0, 50): # 50-99
     tpl["name"] = "{} #{}".format(NAME, id)
-    with open("./002_atr_founder/{}".format(id), "w") as f:
+    with open("./002_atr_founder/{}".format(id+50), "w") as f:
         json.dump(tpl, f)
