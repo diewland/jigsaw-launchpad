@@ -25,4 +25,4 @@ tpl = {
 for id in range(0, 50): # 0-50
     tpl["name"] = "{} #{}".format(NAME, id)
     with open("./001_justbananas/{}".format(id), "w") as f:
-        json.dump(tpl, f)
+        json.dump(tpl, f, ensure_ascii=False)
