@@ -1,5 +1,8 @@
 import json
  
+TOKEN_SIZE = 100
+START_ID = 50
+
 NAME = "ApetiRun Founder"
 DESC = "Got 500 score in ApetiRun before 2022/07/31 20:00 UTC+7"
 IMG = "https://diewland.github.io/jigsaw-launchpad/assets/atr_founder.png"
@@ -25,7 +28,7 @@ tpl = {
   "compiler": ENGINE,
 }
 
-for id in range(0, 50): # 50-99
+for id in range(0, TOKEN_SIZE):
     tpl["name"] = "{} #{}".format(NAME, id)
-    with open("./002_atr_founder/{}".format(id+50), "w") as f:
+    with open("./002_atr_founder/{}".format(START_ID + id), "w") as f:
         json.dump(tpl, f)
