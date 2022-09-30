@@ -6,7 +6,7 @@ OUTPUT_DIR = '012_just_monkey'
 
 NAME = "JustMonkey 🐵"
 DESC = "No Utility No Roadmap No Reveal(Maybe)  Just Monkey 🐵 I love Banananana Uga Uga !!!"
-IMG = "https://diewland.github.io/jigsaw-launchpad/assets/just-monkey/Monkey.gif"
+IMG = "https://raw.githubusercontent.com/diewland/jigsaw-launchpad/master/assets/just-monkey/Monkey.gif"
 ATTRS = [
     # standard
     #{
