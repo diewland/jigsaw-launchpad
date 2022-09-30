@@ -1,6 +1,6 @@
 import json
  
-TOKEN_SIZE = 10 # TODO confirm ***
+TOKEN_SIZE = 1000
 START_ID = 0
 OUTPUT_DIR = '012_just_monkey'
 
