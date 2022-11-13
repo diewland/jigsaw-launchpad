@@ -1,1 +1,40 @@
-{"name": "Community Exclusive #12", "description": "Unrevealed", "image": "https://diewland.github.io/jigsaw-launchpad/assets/lock_500.png", "attributes": [{"trait_type": "Collection", "value": "Community Exclusive"}], "compiler": "Jigsaw Engine"}
+{
+  "name": "OpenSea Metadata Standards",
+  "description": "Test OpenSea Metadata Standards from docs -- https://docs.opensea.io/docs/metadata-standards",
+  "image": "https://opensea.io/static/images/logos/opensea.svg",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "Community Exclusive"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 1.4
+    },
+    {
+      "display_type": "boost_number",
+      "trait_type": "Aqua Power",
+      "value": 40
+    },
+    {
+      "display_type": "boost_percentage",
+      "trait_type": "Stamina Increase",
+      "value": 10
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 2
+    },
+    {
+      "display_type": "date",
+      "trait_type": "birthday",
+      "value": 1546360800
+    }
+  ],
+  "compiler": "Jigsaw Engine"
+}
